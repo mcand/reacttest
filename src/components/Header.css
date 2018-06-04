@@ -1,0 +1,137 @@
+.container-fluid{
+  padding: 0 20px !important;
+}
+
+nav.navbar{
+  background-color: #001C7B;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  min-height: 60px;
+}
+
+body nav.navbar.navbar-default{
+  font-family: Verdana;
+  margin: 0;
+}
+
+ul.nav.navbar-nav{
+  min-height: 60px;
+}
+
+nav.navbar-default .navbar-nav > li > a{
+  padding: 20px 10px;
+  color: white;
+}
+
+nav.navbar-default .navbar-nav > li > a:hover{
+  background-color: white;
+  color: #001C7B !important;   
+}
+
+ul.nav.navbar-nav{
+  color: white;
+}
+
+.navbar-brand{
+  height: 60px;
+  line-height: 60px;
+}
+
+.profile-nav{
+  border-left: 1px solid white;
+  padding-right: 0;
+}
+
+.menus{
+  padding-right: 60px;
+}
+
+.mynav{
+  padding-right: 0 !important;
+}
+
+.profile, .fullname{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile{
+  padding: 10px 20px 10px 0;
+  padding-left: 30px;
+}
+
+.navbar-default .navbar-toggle{
+  border: none;
+}
+
+nav .navbar-brand{
+  padding-top: 7px;
+}
+
+nav.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.logo path{
+  fill: white;
+}
+
+nav.navbar-default .navbar-nav > li > a:hover{
+  color: blue;
+}
+
+nav.navbar .navbar-toggle{
+  color: white;
+  padding: 15px 10px;
+}
+
+
+nav.navbar .navbar-toggle:hover, nav.navbar .navbar-toggle:focus{
+  background-color: #001C7B;
+}
+
+@media (max-width: 767px) {
+  body{
+    margin-bottom: 60px;
+  }
+
+  main{
+    z-index: 1;
+  }
+
+  nav.navbar-default .navbar-nav > li > a{
+    padding: 8px 18px;
+    color: #001C7B;
+  }
+
+  nav.navbar .navbar-header .navbar-toggle{
+    padding-right: 0;
+  }
+
+  ul.nav.profile-nav{
+    padding: 10px 0 3px 18px;
+    border-top: 1px solid #777;
+  }
+
+  .profile-nav .fullname{
+    color: #001C7B;
+    line-height: 30px;
+  }
+
+  .menus.nav{
+    padding-right: 30px;
+  }
+
+  .navbar-collapse{
+    position: absolute !important;
+    right: 0;
+    box-shadow: -1px 1px 10px #EBEBEB !important;
+    z-index: 10;
+    background-color: white;
+  } 
+  nav.navbar-default .navbar-nav > li > a:hover{
+    background-color: #001C7B;
+    color: white !important;
+  }
+}

@@ -1,0 +1,123 @@
+main{
+  color: #5e5e5e;
+}
+
+main h2{
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+main form{
+  margin-top: 15px;
+}
+
+main input{
+  width: 100%;
+  height: 40px;
+}
+
+main .btn{
+  margin: 10px 0 !important;
+  padding: 10px;
+}
+
+main .btn-success{
+  background-color: #2D4596 !important;
+  background-image: none;
+  border: none;
+}
+
+main .btn-warning{
+  background-color: #EAAC4C !important;
+  background-image: none;
+  border: none;
+}
+
+main input{
+  margin: 5px 0;
+}
+
+main h3{
+  margin: 0;
+  font-size: 16px;
+}
+
+main table{
+  width: 100%;
+  font-size: 14px;
+  font-family: "Roboto-Medium";
+}
+
+main table th{
+}
+
+table thead th{
+  padding-bottom: 12px;
+  padding-left: 10px;
+}
+
+.content-container{
+  padding: 15px;
+  background-color: #ebebeb;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px #e0e0e0;
+}
+
+.no-padding-right{
+  padding-right: 6px !important;
+}
+
+table td{
+  padding: 8px 10px;
+}
+
+.line-odd{
+  background-color: white;
+}
+
+.line-even{
+  background-color: #C0BFC0;
+}
+
+.close i{
+  color: black;
+}
+
+.padding-show-filter{
+  padding: 0;
+}
+
+.filter-appear{
+  display: none;
+}
+
+@media(max-width: 992px) {
+  nav.filter{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    left: -5px;
+    width: 59%;
+  }
+
+  .filter-appear{
+    cursor: pointer;
+    display: block;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -31px;
+    color: #5e5e5e;
+    z-index: 1;
+    top: 27px;
+    padding: 10px 20px;
+  }
+
+  .filter-appear:hover{
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+
+  .padding-show-filter{
+    padding-left: 52px !important;
+  }
+}
